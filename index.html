@@ -29,26 +29,35 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
   </head>
   <body>
+    <div class="overlay"></div>
     <header id="header__section">
       <div class="container container__header">
         <div class="header">
+          <a class="burger burger--follow" href="#">
+            <span></span>
+          </a>
           <nav class="nav__main">
             <ul class="nav__main-list">
               <li class="nav__main-item">
-                <a href="#" class="nav__main-link nav__main-link--selected"
+                <a
+                  href="#header__section"
+                  class="nav__main-link nav__main-link--selected"
                   >Home</a
                 >
               </li>
               <li class="nav__main-item">
-                <a href="#" class="nav__main-link">About</a>
+                <a href="#banner__section" class="nav__main-link">About</a>
               </li>
               <li class="nav__main-item">
-                <a href="#" class="nav__main-link">Menu</a>
+                <a href="#menu__section" class="nav__main-link">Menu</a>
               </li>
               <li class="nav__main-item">
-                <a href="#" class="nav__main-link">Reservation</a>
+                <a href="#reservation__section" class="nav__main-link"
+                  >Reservation</a
+                >
               </li>
             </ul>
             <img class="header__logo" src="img/logo.svg" alt="Logo" />
@@ -614,7 +623,9 @@
               <img src="img/news-1.jpg" alt="#" class="news__img" />
               <div class="news__description">
                 <div class="news__info">
-                  <span class="news__author"><span class="news__author-dark">By: </span>rasaline</span>
+                  <span class="news__author"
+                    ><span class="news__author-dark">By: </span>rasaline</span
+                  >
                   <time class="news__date" datetime="2021-01-21"
                     >23.01.2021</time
                   >
@@ -630,7 +641,9 @@
               <img src="img/news-2.jpg" alt="#" class="news__img" />
               <div class="news__description">
                 <div class="news__info">
-                  <span class="news__author"><span class="news__author-dark">By: </span>rasaline</span>
+                  <span class="news__author"
+                    ><span class="news__author-dark">By: </span>rasaline</span
+                  >
                   <time class="news__date" datetime="2021-01-21"
                     >23.01.2021</time
                   >
@@ -646,7 +659,9 @@
               <img src="img/news-3.jpg" alt="#" class="news__img" />
               <div class="news__description">
                 <div class="news__info">
-                  <span class="news__author"><span class="news__author-dark">By: </span>rasaline</span>
+                  <span class="news__author"
+                    ><span class="news__author-dark">By: </span>rasaline</span
+                  >
                   <time class="news__date" datetime="2021-01-21"
                     >23.01.2021</time
                   >
@@ -666,7 +681,7 @@
       <div class="footer__top">
         <div class="container">
           <div class="footer__top-wrapper">
-            <img class="footer__top-img" src="img/logo.svg" alt="#">
+            <img class="footer__top-img" src="img/logo.svg" alt="#" />
             <ul class="footer__top-list">
               <li class="footer__top-item">
                 <a href="#" class="footer__top-link">Home</a>
@@ -691,15 +706,27 @@
               </li>
             </ul>
             <form class="footer__top-form">
-              <input type="email" class="footer__input" placeholder="Enter your email" required>
-              <button type="submit" class="footer__form-btn material-icons-outlined">east</button>
+              <input
+                type="email"
+                class="footer__input"
+                placeholder="Enter your email"
+                required
+              />
+              <button
+                type="submit"
+                class="footer__form-btn material-icons-outlined"
+              >
+                east
+              </button>
             </form>
           </div>
         </div>
       </div>
       <div class="footer__bottom">
         <div class="container">
-          <p class="footer__bottom-text">e-Tennis © 2021. All rights reserved.</p>
+          <p class="footer__bottom-text">
+            e-Tennis © 2021. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
